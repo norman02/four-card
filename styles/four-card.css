@@ -1,2 +1,49 @@
+
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --VeryDarkBlue: hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+}
+
+body,
+html {
+    font-size: 10px;
+}
+
+main {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--GrayishBlue);
+    font-weight: 400;
+}
+
+main header {
+    text-align: center;
+    margin-top: 6rem;
+    line-height: 1.5;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-weight: 200;
+    color: var(--VeryDarkBlue);
+}
+
+header h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--VeryDarkBlue);
+}
+#mission {
+    display: inline-block;
+    margin-top: 2rem;
+    max-width: 50rem;
+}
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
