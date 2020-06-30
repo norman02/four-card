@@ -44,6 +44,34 @@ header h2 {
     max-width: 50rem;
 }
 
+.card {
+    box-shadow: 5px 5px 10px 10px rgba(170, 170, 170, 0.25);
+    width: 35rem;
+    height: 25rem;
+    margin: 2rem;
+    border-radius: 10px;
+}
+
+.card h2 {
+    padding: 2rem;
+    font-weight: 600;
+    color: var(--VeryDarkBlue);
+    font-size: 2rem;
+}
+
+.card p {
+    padding-left: 2rem;
+    line-height: 1.5;
+}
+
+.card img {
+    position: relative;
+    height: 7rem;
+    width: 7rem;
+    top: 60px;
+    left: 250px;
+}
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
