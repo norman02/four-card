@@ -23,7 +23,7 @@ main {
 
 main header {
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 4rem;
     line-height: 1.5;
 }
 
@@ -103,6 +103,21 @@ header h2 {
     flex-direction: column;
 }
 
-
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (min-width: 1000px) {
+    #card-container {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    header h1,
+    header h2 {
+        font-size: 2rem;
+    }
+    main {
+        margin: 0px 4rem;
+    }
+}
