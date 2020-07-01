@@ -72,6 +72,37 @@ header h2 {
     left: 250px;
 }
 
+.color-strip {
+    display: block;
+    background-color: gray;
+    height: 0.5rem;
+    border-radius: 10px 10px 0 0;
+}
+
+#supervisor .color-strip {
+    background-color: var(--Cyan);
+}
+
+#builder .color-strip {
+    background-color: var(--Red);
+}
+
+#karma .color-strip {
+    background-color: var(--Orange);
+}
+
+#calculator .color-strip {
+    background-color: var(--Blue);
+}
+
+#card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
