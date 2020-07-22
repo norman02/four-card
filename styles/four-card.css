@@ -12,9 +12,11 @@
 body,
 html {
     font-size: 10px;
+    
 }
 
 main {
+    background-color: #fff;
     font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
     color: var(--GrayishBlue);
@@ -50,6 +52,7 @@ header h2 {
     height: 25rem;
     margin: 2rem;
     border-radius: 10px;
+    background-color: #fff;
 }
 
 .card h2 {
